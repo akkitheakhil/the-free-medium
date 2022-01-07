@@ -15,7 +15,7 @@ function EnterPage() {
         if (user && username) {
             router.push('/');
         }
-    }, [user, username]);
+    }, [user, username, router]);
 
     const close = () => {
         router.push('/');

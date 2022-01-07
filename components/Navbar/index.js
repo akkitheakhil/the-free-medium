@@ -13,7 +13,7 @@ function Navbar() {
             <nav className={styles.navbar}>
                 <ul className={styles.navbarContainer}>
                     <li className={styles.navItems}>
-                        <Link href='/' className={styles.logo} >
+                        <Link href='/' className={styles.logo} passHref>
                             <Image src='/assets/images/logo.png' width={80} height={80} alt=""></Image>
                         </Link>
                     </li>

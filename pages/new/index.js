@@ -1,5 +1,5 @@
 import styles from '@styles/NewPage.module.css';
-import { useNewPage } from './NewPageLogic';
+import { useNewPage } from '@lib/NewPageLogic';
 import { useForm, } from "react-hook-form";
 
 function NewPage() {
