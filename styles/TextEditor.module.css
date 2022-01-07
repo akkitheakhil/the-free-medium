@@ -1,0 +1,31 @@
+.textEditor {
+    min-height: 300px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 1rem;
+    max-width: 704px;
+}
+
+.button {
+    width: 140px;
+    height: 50px;
+    background: var(--feature-color);
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.button:hover {
+    background: var(--feature-color-hover);
+}
+
+.button:active {
+    opacity: 0.8;
+}
